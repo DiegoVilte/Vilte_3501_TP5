@@ -3,6 +3,7 @@
  */
 package ar.edu.unju.fi.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Equipo {
 	private String nombre;
+	@Autowired
 	private Estadio estadio;
 //-----------------CONSTRUCTORES-----------------------
 	/**

@@ -5,6 +5,7 @@ package ar.edu.unju.fi.model;
 
 import java.time.LocalDate;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -14,10 +15,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class Resultado {
 	private LocalDate fecha;
-	private Equipo equipo1;// (Equipo)
-	private Equipo equipo2;// (Equipo)
 	private int golesEquipo1;// (int)
 	private int golesEquipo2;// (int)
+	@Autowired
+	private Equipo equipo1;// (Equipo)
+	@Autowired
+	private Equipo equipo2;// (Equipo)
 //------------CONSTRUCTORES--------------
 	/**
 	 * 
