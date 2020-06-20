@@ -7,9 +7,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import ar.edu.unju.fi.model.Equipo;
+//import ar.edu.unju.fi.model.Equipo;
 import ar.edu.unju.fi.model.Usuario;
-import ar.edu.unju.fi.service.IEquipoService;
+//import ar.edu.unju.fi.service.IEquipoService;
 import ar.edu.unju.fi.service.IUsuarioService;
 
 @SpringBootApplication
